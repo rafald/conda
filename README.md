@@ -5,12 +5,10 @@
   
   conda config --append create_default_packages  pip
 
-## vscode requires jupyter package installed by pip ('conda install jupyter' does not work)
-  conda uninstall jupyter
-  
+## install jupyter  (conda install or pip install)
   conda create -n jupyter
-  
   conda activate jupyter
-  
   pip install jupyter
+
+## vscode requires installation of python vscode extention by Microsoft
 
