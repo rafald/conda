@@ -1,7 +1,6 @@
 ### conda notes
 
-#### default packages present in each new env
-ipython pip
+#### default packages present in each new env: ipython pip
     conda config --append create_default_packages  ipython
     conda config --append create_default_packages  pip
 
